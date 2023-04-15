@@ -1,0 +1,91 @@
+.purple {
+  background-color: #7683cb;
+}
+.dark-yellow {
+  background-color: #f59e0b;
+}
+.green {
+  background-color: #10b981;
+}
+.orange {
+  background-color: #f97316;
+}
+.light-green {
+  background-color: #14b8a6;
+}
+.red {
+  background-color: #b91c1c;
+}
+.sky-blue {
+  background-color: #0ea5e9;
+}
+.grey {
+  background-color: #64748b;
+}
+.blue {
+  background-color: #0b69ff;
+}
+.user-list-main-container {
+  width: 80%;
+  color: #ffffff;
+  border: 1px solid #b6c3ca;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.card1-container {
+  display: flex;
+  align-items: center;
+}
+.first-letter {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.website {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.user-name {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.stars {
+  width: 80px;
+  margin-top: 0px;
+}
+.delete-button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+.delete {
+  width: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .user-list-main-container {
+    width: 245px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
